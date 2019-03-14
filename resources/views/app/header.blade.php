@@ -19,13 +19,15 @@
 
     <title>@yield('title','Pagsanjan Academy')</title>
     <style>
+
+        #header-text{
+            color:#008cba; 
+            font-family: 'Roboto', sans-serif;
+        }
         @media screen and (max-width: 425px)
         {
             #header-text{
-                font-size: 1.5rem;
-                text-align: center;
-                padding-top: 1.3rem;
-
+                color:red !important;
             }
         }
     </style>

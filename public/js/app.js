@@ -36977,7 +36977,9 @@ var render = function() {
   var _c = _vm._self._c || _h
   return _c(
     "nav",
-    { staticClass: "navbar navbar-expand-lg navbar-light bg-light shadow-sm" },
+    {
+      staticClass: "navbar navbar-expand-lg navbar-light shadow-sm border-top"
+    },
     [
       _vm._m(0),
       _vm._v(" "),

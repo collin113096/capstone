@@ -8,7 +8,7 @@
 				<img src="{{ asset('images/logo.png') }}"" alt="">
 			</div>
 			<div class="col-md-9">
-				<div class="h1" style="color:#008cba; font-family: 'Roboto', sans-serif;" id="header-text">PAGSANJAN ACADEMY</div>
+				<div class="h1" id="header-text">PAGSANJAN ACADEMY</div>
 			</div>
 		</div>
 	</div>
@@ -19,5 +19,7 @@
 
 </div>
 </div>
-@yield('content')
+<div class="bg-light">
+	@yield('content')
+</div>
 @include('app.footer')
